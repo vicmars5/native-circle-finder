@@ -1,0 +1,16 @@
+{
+  "name": "native-circle-finder",
+  "version": "0.0.0",
+  "description": "Find circles in canvas array",
+  "main": "./build/Release/find-circles",
+  "scripts": {
+    "compile": "node-gyp rebuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.8.0",
+    "node-gyp": "^3.6.2"
+  }
+}
